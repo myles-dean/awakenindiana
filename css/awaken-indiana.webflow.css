@@ -194,11 +194,6 @@
   transform: rotate(1deg);
 }
 
-.btn-stop-motion.disabled {
-  opacity: .42;
-  pointer-events: none;
-}
-
 .btn-stop-motion__inner {
   justify-content: center;
   align-items: center;

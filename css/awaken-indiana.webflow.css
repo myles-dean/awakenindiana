@@ -1,7 +1,7 @@
 :root {
-  --yellow: #ffdf8e;
-  --orange: #f56d00;
   --blue: #4a9baf;
+  --orange: #f56d00;
+  --yellow: #ffdf8e;
 }
 
 .w-layout-blockcontainer {
@@ -48,7 +48,7 @@
 }
 
 .section.dark {
-  background-color: var(--yellow);
+  background-color: var(--blue);
 }
 
 .section.dark.two {
@@ -338,6 +338,10 @@
 
 .heading-2.left.orange {
   color: var(--orange);
+}
+
+.heading-2.left.orange.white {
+  color: #fff;
 }
 
 .heading-2.left.yellow {
@@ -822,6 +826,7 @@
   }
 
   .btn-stop-motion__p {
+    text-align: center;
     font-size: 1.4em;
   }
 

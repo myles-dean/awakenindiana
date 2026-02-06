@@ -867,7 +867,7 @@
   width: 35%;
 }
 
-.div-block-9 {
+.div-block-9, .div-block-10 {
   grid-column-gap: .5em;
   grid-row-gap: .5em;
   flex-flow: column;

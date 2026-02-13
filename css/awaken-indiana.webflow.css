@@ -758,7 +758,7 @@
 }
 
 .section-resource__item {
-  width: calc(25% - .25px - .75em);
+  width: calc(33.3333% - .333333px - 1em);
   transition-property: opacity;
   transition-duration: .2s;
   transition-timing-function: ease;

@@ -601,6 +601,11 @@
   display: flex;
 }
 
+.accordion-css__item-top.list {
+  cursor: default;
+  padding-right: 1.5em;
+}
+
 .accordion-css {
   padding-left: 4em;
   padding-right: 4em;
@@ -676,6 +681,7 @@
 }
 
 .div-block-6._100 {
+  text-align: center;
   justify-content: center;
   align-items: center;
   max-width: 100%;
@@ -884,6 +890,10 @@
     line-height: 42px;
   }
 
+  .heading-2.left.orange.white.no-margin-bottom {
+    text-align: center;
+  }
+
   .div-block-5 {
     flex-flow: column;
     justify-content: flex-start;
@@ -894,6 +904,10 @@
     justify-content: center;
     align-items: center;
     max-width: 100%;
+  }
+
+  .div-block-6._100 {
+    text-align: center;
   }
 
   .section-resource__item {

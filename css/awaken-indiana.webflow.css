@@ -566,6 +566,12 @@
   position: static;
 }
 
+.accordion-css__list.list {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .accordion-css__item-bottom-wrap {
   flex-flow: column;
   height: 100000%;
@@ -1026,6 +1032,10 @@
   .heading-2 {
     font-size: 18px;
     line-height: 22px;
+  }
+
+  .accordion-css__list.list {
+    flex-flow: column;
   }
 
   .accordion-css {
